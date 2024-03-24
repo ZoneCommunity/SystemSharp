@@ -12,6 +12,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 
+using System.Components;
+
 
 namespace System;
 
@@ -43,12 +45,12 @@ public static class Program
 		Console.ResetColor();
 		Console.Clear();
 
-		Display.DefaultFont = Utils.Load(File.ReadAllBytes("font2.bin"));
+		Display.DefaultFont = Utils.Load(File.ReadAllBytes("font.bin"));
 
 		Utils.Fonts = new List<ISimpleFont>
 		{
 			Display.DefaultFont,
-			Utils.Load(File.ReadAllBytes("font2.bin"))
+			Utils.Load(File.ReadAllBytes("font.bin"))
 		};
 
 		// if (!Display.Initialize()) HAL.Abort("An error occurred when initializing the graphics driver.");
@@ -67,48 +69,39 @@ public static class Program
 		for (; ; )
 		{
 			// Get current time
-			// var time = Platform.GetTime();
-
+			var time = Platform.GetTime();
 			// Clear screen
 			Display.Clear(Color.FromArgb(22, 169, 253));
 
+			Display.DrawMosaLogo(40);
 			// Initialize background labels
-			// var labels = new List<Label>
-			// {
-			// 	new("Current resolution is " + Display.Width + "x" + Display.Height, Display.DefaultFont, 10, 10, Color.OrangeRed),
-			// 	new("FPS is " + FPSMeter.FPS, Display.DefaultFont, 10, 26, Color.Lime),
-			// 	new("Current font is " + Display.DefaultFont.Name, Display.DefaultFont, 10, 42, Color.MidnightBlue),
-			// 	new(
-			// 		(time.Hour < 10 ? "0" + time.Hour : time.Hour)
-			// 		+ ":" +
-			// 		(time.Minute < 10 ? "0" + time.Minute : time.Minute)
-			// 		+ ":" +
-			// 		(time.Second < 10 ? "0" + time.Second : time.Second),
-			// 		Display.DefaultFont, 10, 58, Color.LightSeaGreen
-			// 	)
-			// };
+			var labels = new List<Label>
+			{
+				new("Current resolution is " + Display.Width + "x" + Display.Height, Display.DefaultFont, 10, 10, Color.OrangeRed),
+				new("FPS is " + FPSMeter.FPS, Display.DefaultFont, 10, 26, Color.Lime),
+				new("Current font is " + Display.DefaultFont.Name, Display.DefaultFont, 10, 42, Color.MidnightBlue),
+				new(
+					(time.Hour < 10 ? "0" + time.Hour : time.Hour)
+					+ ":" +
+					(time.Minute < 10 ? "0" + time.Minute : time.Minute)
+					+ ":" +
+					(time.Second < 10 ? "0" + time.Second : time.Second),
+					Display.DefaultFont, 10, 58, Color.LightSeaGreen
+				)
+			};
 
-			// Draw all labels
-			// foreach (var label in labels) label.Draw();
-
-			// Draw and update all windows
-			// WindowManager.Update();
-
-			// Draw taskbar on top of everything else (except cursor) and update it
-			// Taskbar.Draw();
-			// Taskbar.Update();
-			Display.DrawWallpaper();
-			Display.DrawMosaLogo(10);
+			foreach (var label in labels) label.Draw();
+			
 			// Draw cursor
 			Mouse.Draw();
 			
 
 			// Update graphics and FPS meter
 			Display.Update();
+			FPSMeter.Update(ref time);
 			// FPSMeter.Update(ref time);
 		}
 		
 	}
-
 
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "46mVJiR6ETy4SHBa8mOF6oWOunQ8x41n0Mx102K2M2x+zE7UeObvG7lK5u43vofiRu+quyDHVeeQ4fyAOEl5AQ==",
+  "dgSpecHash": "SLRsAXudartB8CAMjX9Ec4M33NupcV30+BhcoM+/mVntAWyu+be6AvAMXd2l2jYrtmQtOXJEZ+wlZztF/nmD+Q==",
   "success": true,
-  "projectFilePath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj",
+  "projectFilePath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
   "expectedPackageFiles": [
-    "/Users/creeper/.nuget/packages/mosa.devicesystem/2.6.0.1398/mosa.devicesystem.2.6.0.1398.nupkg.sha512",
-    "/Users/creeper/.nuget/packages/mosa.platform/2.6.0.1398/mosa.platform.2.6.0.1398.nupkg.sha512",
-    "/Users/creeper/.nuget/packages/mosa.tools.package.qemu/2.6.0.1398/mosa.tools.package.qemu.2.6.0.1398.nupkg.sha512"
+    "C:\\Users\\Creeper\\.nuget\\packages\\mosa.devicesystem\\2.6.0.1400\\mosa.devicesystem.2.6.0.1400.nupkg.sha512",
+    "C:\\Users\\Creeper\\.nuget\\packages\\mosa.platform\\2.6.0.1400\\mosa.platform.2.6.0.1400.nupkg.sha512",
+    "C:\\Users\\Creeper\\.nuget\\packages\\mosa.tools.package.qemu\\2.6.0.1400\\mosa.tools.package.qemu.2.6.0.1400.nupkg.sha512"
   ],
   "logs": []
 }

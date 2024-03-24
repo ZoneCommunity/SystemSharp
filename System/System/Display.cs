@@ -21,8 +21,8 @@ public static class Display
 
 	public static bool Initialize()
 	{
-		Width = 1280;
-		Height = 720;
+		Width = 1920;
+		Height = 1080;
 
 		Driver = Program.DeviceService.GetFirstDevice<IGraphicsDevice>().DeviceDriver as IGraphicsDevice;
 

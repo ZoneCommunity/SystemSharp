@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Mosa.DeviceSystem/2.6.0.1398": {
+      "Mosa.DeviceSystem/2.6.0.1400": {
         "type": "package",
         "dependencies": {
-          "Mosa.Platform": "2.6.0.1398"
+          "Mosa.Platform": "2.6.0.1400"
         },
         "compile": {
           "lib/net8.0/Mosa.DeviceDriver.dll": {},
@@ -18,7 +18,7 @@
           "lib/net8.0/Mosa.FileSystem.dll": {}
         }
       },
-      "Mosa.Platform/2.6.0.1398": {
+      "Mosa.Platform/2.6.0.1400": {
         "type": "package",
         "compile": {
           "lib/net8.0/Mosa.Kernel.BareMetal.dll": {},
@@ -33,7 +33,7 @@
           "lib/net8.0/System.Runtime.dll": {}
         }
       },
-      "Mosa.Tools.Package.Qemu/2.6.0.1398": {
+      "Mosa.Tools.Package.Qemu/2.6.0.1400": {
         "type": "package",
         "contentFiles": {
           "contentFiles/any/net8.0/Tools/Avalonia.Base.dll": {
@@ -1643,10 +1643,10 @@
     }
   },
   "libraries": {
-    "Mosa.DeviceSystem/2.6.0.1398": {
-      "sha512": "0hoEH+RM1J/FrvHsFpE1RFOPr1e1/ZPWdceQOasr+m2ycl1YTNa9gBGoEsNhBhWU/sD6+xXHwrm7qZnyMUuhYA==",
+    "Mosa.DeviceSystem/2.6.0.1400": {
+      "sha512": "BQrll2yTYwb3uon88JIdle/C7ddbdPHXuCPKSINtAbs+9I9nRBIwRBBR26WsZhI/MzcGz67y3X/jf0LkVLnTZA==",
       "type": "package",
-      "path": "mosa.devicesystem/2.6.0.1398",
+      "path": "mosa.devicesystem/2.6.0.1400",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1654,14 +1654,14 @@
         "lib/net8.0/Mosa.DeviceDriver.dll",
         "lib/net8.0/Mosa.DeviceSystem.dll",
         "lib/net8.0/Mosa.FileSystem.dll",
-        "mosa.devicesystem.2.6.0.1398.nupkg.sha512",
+        "mosa.devicesystem.2.6.0.1400.nupkg.sha512",
         "mosa.devicesystem.nuspec"
       ]
     },
-    "Mosa.Platform/2.6.0.1398": {
-      "sha512": "S6gxoqO0Kc3FAgFZwcrF5mhaAlhMmwdhnSevAgyb4PW75hUwpAY76Aec6S1wssbHb7ykidH2Wn//Fqgqbu5KaA==",
+    "Mosa.Platform/2.6.0.1400": {
+      "sha512": "6XFY83wx1NHop9tb/f2Mz2NQrz0JuwsM18W4zNHRl/xyaQTjFQoKlCiLDvUr1is9kvfGvA0KrqV0Zf+jJktxKw==",
       "type": "package",
-      "path": "mosa.platform/2.6.0.1398",
+      "path": "mosa.platform/2.6.0.1400",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1670,14 +1670,14 @@
         "lib/net8.0/Mosa.Plug.Korlib.dll",
         "lib/net8.0/Mosa.Runtime.dll",
         "lib/net8.0/System.Runtime.dll",
-        "mosa.platform.2.6.0.1398.nupkg.sha512",
+        "mosa.platform.2.6.0.1400.nupkg.sha512",
         "mosa.platform.nuspec"
       ]
     },
-    "Mosa.Tools.Package.Qemu/2.6.0.1398": {
-      "sha512": "CtODX6+GIUaUGVcaCpy5pCmd7DbbwAqnbJ5geJHT4niqSxic/1stVMhdF4UMg2XqLzljNnLviuMMFJF1Iqk/8A==",
+    "Mosa.Tools.Package.Qemu/2.6.0.1400": {
+      "sha512": "wFbXmpxXerq2Mx1/+nB1fLhXjYwgDCS6dUVZSZeFEdk93BCS3NwXV3xGnzGimCxOpjKy5bZhPSVEB+xltV0GTA==",
       "type": "package",
-      "path": "mosa.tools.package.qemu/2.6.0.1398",
+      "path": "mosa.tools.package.qemu/2.6.0.1400",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1949,7 +1949,7 @@
         "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll",
         "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll",
         "images/Mosa Icon.png",
-        "mosa.tools.package.qemu.2.6.0.1398.nupkg.sha512",
+        "mosa.tools.package.qemu.2.6.0.1400.nupkg.sha512",
         "mosa.tools.package.qemu.nuspec"
       ]
     }
@@ -1962,25 +1962,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/creeper/.nuget/packages/": {}
+    "C:\\Users\\Creeper\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj",
+      "projectUniqueName": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
       "projectName": "System",
-      "projectPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj",
-      "packagesPath": "/Users/creeper/.nuget/packages/",
-      "outputPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/obj/",
+      "projectPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
+      "packagesPath": "C:\\Users\\Creeper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/creeper/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Creeper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/opt/cosmos/Packages/": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Creeper\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2028,7 +2030,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
