@@ -21,9 +21,9 @@ public static class Program
 		Debug.WriteLine("Program::EntryPoint()");
 
 		Console.ResetColor();
-		Console.Clear();
+		//Console.Clear();
 		Console.WriteLine("System has booted!");
-		Console.WriteLine("This version is 0.0.1_32bit");
+		Console.WriteLine("This version is 0.0.1");
 
 		Console.WriteLine();
 		Console.WriteLine("System Shell");
