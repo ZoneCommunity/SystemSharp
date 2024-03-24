@@ -1,7 +1,7 @@
 cd System/System.x86
 dotnet build
 cd bin
-dotnet Tools/Mosa.Tool.Launcher.Console.dll -autostart -oMax -vmware-svga -include ../../System/include System.x86.dll
+dotnet Tools/Mosa.Tool.Launcher.Console.dll -autostart -threading -oMax -vmware-svga -include ../../System/include System.x86.dll
 # -launch-off -output-asm -output-debug -output-hash
 cd ../../..
 

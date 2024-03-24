@@ -63,17 +63,14 @@ public static class Program
 		Utils.Mouse.SetScreenResolution(Display.Width, Display.Height);
 
 		Mouse.Initialize();	
-		// Display.DrawMosaLogo(10);
+		// Display.DrawWallpaper();
 		for (; ; )
 		{
 			// Get current time
 			// var time = Platform.GetTime();
 
 			// Clear screen
-			Display.Clear(Utils.BackColor);
-
-			// Draw MOSA logo
-			Display.DrawMosaLogo(10);
+			Display.Clear(Color.FromArgb(22, 169, 253));
 
 			// Initialize background labels
 			// var labels = new List<Label>
@@ -100,9 +97,11 @@ public static class Program
 			// Draw taskbar on top of everything else (except cursor) and update it
 			// Taskbar.Draw();
 			// Taskbar.Update();
-
+			Display.DrawWallpaper();
+			Display.DrawMosaLogo(10);
 			// Draw cursor
 			Mouse.Draw();
+			
 
 			// Update graphics and FPS meter
 			Display.Update();

@@ -1,6 +1,7 @@
 using System.Drawing;
 using Mosa.DeviceSystem.Fonts;
 using Mosa.DeviceSystem.Graphics;
+using System.IO;
 
 namespace System;
 
@@ -38,6 +39,15 @@ public static class Display
 	public static void DrawMosaLogo(uint v)
 	{
 		MosaLogo.Draw(v);
+	}
+
+	public static void DrawWallpaper()
+	{
+			var datax = File.ReadAllBytes("logo.bmp");
+			var imagae = Bitmap.CreateImage(datax);
+			FrameBuffer32 bitmapFrcameBuffer = Bitmap.CreateImage(datax);
+			
+			DrawBuffer(1, 1, bitmapFrcameBuffer, true);
 	}
 
 	public static void DrawPoint(uint x, uint y, Color color)

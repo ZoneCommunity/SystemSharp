@@ -63,7 +63,6 @@ public static class Mouse
 		return Display.IsInBounds(X, x, Y, y, width, height);
 	}
 
-
 	public static void Draw()
 	{
 		if (!HardwareCursor)
@@ -71,16 +70,10 @@ public static class Mouse
 
 			var data = File.ReadAllBytes("cur.bmp");
 			var image = Bitmap.CreateImage(data);
-
-			using (var ms = new MemoryStream())
-			{
-				data = ms.ToArray();
-			}
+			FrameBuffer32 bitmapFrameBuffer = Bitmap.CreateImage(data);
 			
-
-			Mosa.DeviceSystem.Graphics.Bitmap.CreateImage(data);
+			Display.DrawBuffer(X, Y, bitmapFrameBuffer, true);
 		}
 		else Display.Driver.SetCursor(true, X, Y);
-		
 	}
 }
