@@ -32,26 +32,26 @@ public static class Program
 		Console.WriteLine("System has booted!");
 		Console.WriteLine("Running version 0.0.1");
 		
-		DeviceService = Mosa.Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<DeviceService>();
+		//DeviceService = Mosa.Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<DeviceService>();
 
-		AppManager.Execute("Shell");
+		//AppManager.Execute("Shell");
 
-		Console.WriteLine();
-		Console.WriteLine("Shutting down...");
+		//Console.WriteLine();
+		//Console.WriteLine("Shutting down...");
 
-		var pcService = Mosa.Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<PCService>();
-		var success = pcService.Shutdown();
+		//var pcService = Mosa.Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<PCService>();
+		//var success = pcService.Shutdown();
 		
 
-		if (!success) {
-			Console.WriteLine("Error while trying to shut down.");
-		}
+		//if (!success) {
+			// Console.WriteLine("Error while trying to shut down.");
+		// }
 
 		// Let's just re-run the shell for now
 		// AppManager.Execute("Shell");
 
 
-		for (; ; ) HAL.Yield();
+		// for (; ; ) HAL.Yield();
 
 	}
 
