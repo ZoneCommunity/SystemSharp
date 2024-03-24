@@ -1,7 +1,7 @@
 cd System/System.x86
 dotnet build
 cd bin
-dotnet Tools/Mosa.Tool.Launcher.Console.dll -launch-off System.x86.dll
+dotnet Tools/Mosa.Tool.Launcher.Console.dll  System.x86.dll
 cd ../../..
 
 cp /var/folders/6g/cn2k0n6n6mxf063hwd89rbch0000gn/T/MOSA/System.x86.img ISO/CD_root/images
