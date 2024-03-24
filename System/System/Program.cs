@@ -45,13 +45,14 @@ public static class Program
 		Console.ResetColor();
 		Console.Clear();
 
-		Display.DefaultFont = Utils.Load(File.ReadAllBytes("font.bin"));
+		// Display.DefaultFont = Utils.Load(File.ReadAllBytes("font.bin"));
+		Display.DefaultFont = new ASC16Font();
 
-		Utils.Fonts = new List<ISimpleFont>
-		{
-			Display.DefaultFont,
-			Utils.Load(File.ReadAllBytes("font.bin"))
-		};
+		//Utils.Fonts = new List<ISimpleFont>
+		//{
+		//	Display.DefaultFont,
+		//	Utils.Load(File.ReadAllBytes("font.bin"))
+		//};
 
 		// if (!Display.Initialize()) HAL.Abort("An error occurred when initializing the graphics driver.");
 		if (!Display.Initialize()) Console.WriteLine("Failed to load graphics driver.");
@@ -86,7 +87,7 @@ public static class Program
 					(time.Minute < 10 ? "0" + time.Minute : time.Minute)
 					+ ":" +
 					(time.Second < 10 ? "0" + time.Second : time.Second),
-					Display.DefaultFont, 10, 58, Color.LightSeaGreen
+					Display.DefaultFont, 10, 58, Color.Orange
 				)
 			};
 
