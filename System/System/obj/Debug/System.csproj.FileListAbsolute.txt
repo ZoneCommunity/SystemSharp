@@ -278,3 +278,5 @@
 /Users/creeper/Documents/GitHub/SystemSharp/System/System/obj/Debug/refint/System.dll
 /Users/creeper/Documents/GitHub/SystemSharp/System/System/obj/Debug/System.pdb
 /Users/creeper/Documents/GitHub/SystemSharp/System/System/obj/Debug/ref/System.dll
+/Users/creeper/Documents/GitHub/SystemSharp/System/System/bin/include/font.bin
+/Users/creeper/Documents/GitHub/SystemSharp/System/System/bin/include/font2.bin

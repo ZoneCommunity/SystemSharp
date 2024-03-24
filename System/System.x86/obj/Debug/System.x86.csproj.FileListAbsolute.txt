@@ -294,3 +294,5 @@
 /Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/obj/Debug/System.x86.pdb
 /Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/obj/Debug/System.x86.genruntimeconfig.cache
 /Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/obj/Debug/ref/System.x86.dll
+/Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/bin/include/font.bin
+/Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/bin/include/font2.bin

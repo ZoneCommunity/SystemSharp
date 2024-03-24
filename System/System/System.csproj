@@ -20,7 +20,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Shellx/" />
+
+		<None Update="Include/font.bin">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+		<None Update="Include/font2.bin">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
 	</ItemGroup>
 
 </Project>
