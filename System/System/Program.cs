@@ -1,6 +1,8 @@
 // Copyright (c) MOSA Project. Licensed under the New BSD License.
 
 using System;
+using Mosa.DeviceSystem.HardwareAbstraction;
+using Mosa.DeviceSystem.Services;
 using Mosa.Kernel.BareMetal;
 using Mosa.Runtime.Plug;
 
@@ -16,30 +18,36 @@ public static class Program
 		//BootSettings.EnableMinimalBoot = true;
 	}
 
+	public static DeviceService DeviceService { get; private set; }
+
 	public static void EntryPoint()
 	{
 		Debug.WriteLine("Program::EntryPoint()");
 
 		Console.ResetColor();
-		//Console.Clear();
+		// Console.BackgroundColor = ConsoleColor.Black;
+		// Console.ForegroundColor = ConsoleColor.White;
+
+		Console.Clear();
 		Console.WriteLine("System has booted!");
-		Console.WriteLine("This version is 0.0.1");
+		Console.WriteLine("Running version 0.0.1");
+		
+		// DeviceService = Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<DeviceService>();
 
-		Console.WriteLine();
-		Console.WriteLine("System Shell");
-		Console.WriteLine("Enter \"quit\" to exit the shell.");
+		AppManager.Execute("Shell");
 
-		while (true)
-		{
-			Console.Write("> ");
+		Console.WriteLine("User has decided to exit out of shell.");
+		Console.WriteLine("Shutting down...");
 
-			var cmd = Console.ReadLine();
+		// var pcService = Kernel.BareMetal.Kernel.ServiceManager.GetFirstService<PCService>();
+		// var success = pcService.Shutdown();
 
-			if (cmd == "quit")
-				break;
-		}
+		// if (!success) Console.WriteLine("Error while trying to shut down.");
 
-		for (; ; )
-		{ }
+		// Let's just re-run the shell for now
+		AppManager.Execute("Shell");
+
+		for (; ; ) HAL.Yield();
+
 	}
 }

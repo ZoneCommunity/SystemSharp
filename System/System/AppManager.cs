@@ -6,7 +6,7 @@ public static class AppManager
 {
 	public static readonly IApp[] Applications =
 	{
-		new Shell(),
+		new Shell.Shell(),
 	};
 
 	public static bool Execute(string name)
