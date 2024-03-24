@@ -1,0 +1,676 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mosa.Tool.Explorer/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.ARM32": "2.6.0.1398",
+          "Mosa.Compiler.Common": "2.6.0.1398",
+          "Mosa.Compiler.Framework": "2.6.0.1398",
+          "Mosa.Compiler.MosaTypeSystem.CLR": "2.6.0.1398",
+          "Mosa.Compiler.x64": "2.6.0.1398",
+          "Mosa.Compiler.x86": "2.6.0.1398",
+          "Mosa.Utility.Configuration": "2.6.0.1398",
+          "Mosa.Utility.Disassembler": "2.6.0.1398",
+          "Mosa.Utility.Launcher": "2.6.0.1398",
+          "System.ComponentModel.Composition": "8.0.0",
+          "dnlib": "4.3.0"
+        },
+        "runtime": {
+          "Mosa.Tool.Explorer.dll": {}
+        }
+      },
+      "dnlib/4.3.0": {
+        "runtime": {
+          "lib/net6.0/dnlib.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "Reko.Decompiler.Runtime/0.11.4": {
+        "runtime": {
+          "lib/net6.0/K4os.Compression.LZ4.dll": {
+            "assemblyVersion": "1.2.16.0",
+            "fileVersion": "1.2.16.0"
+          },
+          "lib/net6.0/Reko.Arch.Alpha.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Altera.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/Reko.Arch.Arc.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Arm.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Avr.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Blackfin.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.C166.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Cil.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.CompactRisc.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Cray.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Etrax.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Fujitsu.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.H8.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.IA64.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Infineon.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.LatticeMico.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Loongson.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.M6800.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.M68k.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.MCore.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.MicroBlaze.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.MicrochipPIC.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.MilStd1750.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Mips.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Mos6502.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Msp430.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.OpenRISC.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.PaRisc.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Padauk.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Pdp.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.PowerPC.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Qualcomm.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.RiscV.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Rl78.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Sparc.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.SuperH.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Tlcs.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Tms7000.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.V850.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Vax.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.WE32100.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.X86.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.XCore.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Xtensa.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.Z80.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.i8051.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Arch.zSeries.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Core.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Decompiler.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.AmigaOS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.AtariTOS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.BbcMicro.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.C64.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Cpm.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Dreamcast.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Gameboy.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Hpux.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.MacOS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.MorphOS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Msdos.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.NeoGeo.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.OS2.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.OpenVMS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Pdp10Env.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Ps3.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.RT11.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.RiscOS.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.SegaGenesis.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Snes.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Switch.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.SysV.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Trs80.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Wii.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Windows.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.Xbox.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Environments.ZX81.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Archives.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.BinHex.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Coff.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Dol.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Elf.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.HpSom.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Hunk.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.IntelHex.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.LLVM.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Ldm.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.MachO.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.MzExe.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Nro.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.OdbgScript.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Omf.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Pef.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Srec.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.TekHex.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.TypeLib.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.VmsExe.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.WebAssembly.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Xbe.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.ImageLoaders.Xex.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Libraries.Libc.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Libraries.Microchip.Utils.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Libraries.Python.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          },
+          "lib/net6.0/Reko.Scripts.Python.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net6.0/Reko.Symbols.LGSymLoader.dll": {
+            "assemblyVersion": "0.11.4.0",
+            "fileVersion": "0.11.4.0"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "System.IO.Hashing/8.0.0": {
+        "runtime": {
+          "lib/net8.0/System.IO.Hashing.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "Mosa.Compiler.ARM32/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Compiler.ARM32.dll": {}
+        }
+      },
+      "Mosa.Compiler.Common/2.6.0.1398": {
+        "runtime": {
+          "Mosa.Compiler.Common.dll": {}
+        }
+      },
+      "Mosa.Compiler.Framework/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.MosaTypeSystem": "2.6.0.1398",
+          "Mosa.Utility.Configuration": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Compiler.Framework.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem.CLR/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.MosaTypeSystem": "2.6.0.1398",
+          "dnlib": "4.3.0"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.CLR.dll": {}
+        }
+      },
+      "Mosa.Compiler.x64/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Compiler.x64.dll": {}
+        }
+      },
+      "Mosa.Compiler.x86/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Compiler.x86.dll": {}
+        }
+      },
+      "Mosa.Utility.BootImage/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.6.0.1398",
+          "Mosa.Utility.FileSystem": "2.6.0.1398",
+          "System.IO.Hashing": "8.0.0"
+        },
+        "runtime": {
+          "Mosa.Utility.BootImage.dll": {}
+        }
+      },
+      "Mosa.Utility.Configuration/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Utility.Configuration.dll": {}
+        }
+      },
+      "Mosa.Utility.Disassembler/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.ARM32": "2.6.0.1398",
+          "Mosa.Compiler.Framework": "2.6.0.1398",
+          "Mosa.Compiler.x64": "2.6.0.1398",
+          "Mosa.Compiler.x86": "2.6.0.1398",
+          "Reko.Decompiler.Runtime": "0.11.4"
+        },
+        "runtime": {
+          "Mosa.Utility.Disassembler.dll": {}
+        }
+      },
+      "Mosa.Utility.FileSystem/2.6.0.1398": {
+        "runtime": {
+          "Mosa.Utility.FileSystem.dll": {}
+        }
+      },
+      "Mosa.Utility.Launcher/2.6.0.1398": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1398",
+          "Mosa.Compiler.MosaTypeSystem.CLR": "2.6.0.1398",
+          "Mosa.Compiler.x64": "2.6.0.1398",
+          "Mosa.Compiler.x86": "2.6.0.1398",
+          "Mosa.Utility.BootImage": "2.6.0.1398",
+          "Mosa.Utility.Configuration": "2.6.0.1398",
+          "Mosa.Utility.Disassembler": "2.6.0.1398"
+        },
+        "runtime": {
+          "Mosa.Utility.Launcher.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Tool.Explorer/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dnlib/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aGJ1KzGLV6dsU6gsR5dXfhjcIn0z0YJ29VqysPtHZ8237adtPfO0X2E6eyYehwrzeKMkZKQOdC1VQaHdQQ+yCw==",
+      "path": "dnlib/4.3.0",
+      "hashPath": "dnlib.4.3.0.nupkg.sha512"
+    },
+    "Reko.Decompiler.Runtime/0.11.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j3ed6Ea8BNLHpAPVmrdw6Ns+L9PGFiaxoHzhpdNLNnXqK8h8OQFe9ynogKW4Vd53zReimrgUEitpNO0/mGu9yw==",
+      "path": "reko.decompiler.runtime/0.11.4",
+      "hashPath": "reko.decompiler.runtime.0.11.4.nupkg.sha512"
+    },
+    "System.ComponentModel.Composition/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bGhUX5BTivJ9Wax0qnJy7uGq7dn/TQkEpJ2Fpu1etg8dbPwyDkUzNPc1d3I2/jUr9y4wDI3a1dkSmi8X21Pzbw==",
+      "path": "system.componentmodel.composition/8.0.0",
+      "hashPath": "system.componentmodel.composition.8.0.0.nupkg.sha512"
+    },
+    "System.IO.Hashing/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ne1843evDugl0md7Fjzy6QjJrzsjh46ZKbhf8GwBXb5f/gw97J4bxMs0NQKifDuThh/f0bZ0e62NPl1jzTuRqA==",
+      "path": "system.io.hashing/8.0.0",
+      "hashPath": "system.io.hashing.8.0.0.nupkg.sha512"
+    },
+    "Mosa.Compiler.ARM32/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Common/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Framework/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem.CLR/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.x64/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.x86/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.BootImage/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.Configuration/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.Disassembler/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.FileSystem/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.Launcher/2.6.0.1398": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
