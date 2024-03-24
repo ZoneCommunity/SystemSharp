@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|c:\\users\\creeper\\desktop\\test\\system\\system\\driver\\mouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|solutionrelative:system\\driver\\mouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|c:\\users\\creeper\\desktop\\test\\system\\system\\driver\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|solutionrelative:system\\driver\\display.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|c:\\users\\creeper\\desktop\\test\\system\\system\\components\\fpsmeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|solutionrelative:system\\components\\fpsmeter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|c:\\users\\creeper\\desktop\\test\\system\\system\\system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{58ABBB25-806D-4057-80E0-5AF297348CCD}|System\\System.csproj|solutionrelative:system\\system.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mouse.cs",
+              "DocumentMoniker": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Driver\\Mouse.cs",
+              "RelativeDocumentMoniker": "System\\Driver\\Mouse.cs",
+              "ToolTip": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Driver\\Mouse.cs*",
+              "RelativeToolTip": "System\\Driver\\Mouse.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:37:55.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Display.cs",
+              "DocumentMoniker": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Driver\\Display.cs",
+              "RelativeDocumentMoniker": "System\\Driver\\Display.cs",
+              "ToolTip": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Driver\\Display.cs*",
+              "RelativeToolTip": "System\\Driver\\Display.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:37:49.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FPSMeter.cs",
+              "DocumentMoniker": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Components\\FPSMeter.cs",
+              "RelativeDocumentMoniker": "System\\Components\\FPSMeter.cs",
+              "ToolTip": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\Components\\FPSMeter.cs*",
+              "RelativeToolTip": "System\\Components\\FPSMeter.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-24T22:37:40.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "System",
+              "DocumentMoniker": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
+              "RelativeDocumentMoniker": "System\\System.csproj",
+              "ToolTip": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj*",
+              "RelativeToolTip": "System\\System.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-24T22:36:13.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

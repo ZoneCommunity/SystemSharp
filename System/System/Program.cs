@@ -1,6 +1,5 @@
 // Copyright (c) MOSA Project. Licensed under the New BSD License.
 
-using System;
 using Mosa.DeviceSystem.HardwareAbstraction;
 using Mosa.DeviceSystem.Services;
 using Mosa.Kernel.BareMetal;
@@ -13,6 +12,9 @@ using System.Drawing;
 using System.IO;
 
 using System.Components;
+using System.Driver;
+using System.WM;
+using System.Apps;
 
 
 namespace System;
@@ -32,6 +34,8 @@ public static class Program
 	public static PCService PCService { get; private set; }
 
 	public static Random Random { get; private set; }
+
+	public static Taskbar Taskbar { get; private set; }
 
 	public static void EntryPoint()
 	{
@@ -66,6 +70,16 @@ public static class Program
 		Utils.Mouse.SetScreenResolution(Display.Width, Display.Height);
 
 		Mouse.Initialize();	
+		WindowManager.Initialize();
+
+		Taskbar = new Taskbar();
+		Taskbar.Buttons.Add(new TaskbarButton(Taskbar, "Shutdown", Color.Blue, Color.White, Color.Navy,
+			() => { Environment.Exit(0); return null; }));
+		Taskbar.Buttons.Add(new TaskbarButton(Taskbar, "Reset", Color.Blue, Color.White, Color.Navy,
+			() => { PCService.Reset(); return null; }));
+		Taskbar.Buttons.Add(new TaskbarButton(Taskbar, "Settings", Color.Coral, Color.White, Color.Red,
+			() => { WindowManager.Open(new Settings(70, 90, 400, 200, Color.MediumPurple, Color.Purple, Color.White)); return null; }));
+
 		// Display.DrawWallpaper();
 		for (; ; )
 		{
@@ -78,21 +92,27 @@ public static class Program
 			// Initialize background labels
 			var labels = new List<Label>
 			{
-				new("Current resolution is " + Display.Width + "x" + Display.Height, Display.DefaultFont, 10, 10, Color.OrangeRed),
-				new("FPS is " + FPSMeter.FPS, Display.DefaultFont, 10, 26, Color.Lime),
-				new("Current font is " + Display.DefaultFont.Name, Display.DefaultFont, 10, 42, Color.MidnightBlue),
+				new("Current resolution is " + Display.Width + "x" + Display.Height, Display.DefaultFont, 10, 10, Color.White),
+				new("FPS is " + FPSMeter.FPS, Display.DefaultFont, 10, 26, Color.White),
+				new("Current font is " + Display.DefaultFont.Name, Display.DefaultFont, 10, 42, Color.White),
 				new(
 					(time.Hour < 10 ? "0" + time.Hour : time.Hour)
 					+ ":" +
 					(time.Minute < 10 ? "0" + time.Minute : time.Minute)
 					+ ":" +
 					(time.Second < 10 ? "0" + time.Second : time.Second),
-					Display.DefaultFont, 10, 58, Color.Orange
+					Display.DefaultFont, 10, 58, Color.White
 				)
 			};
 
 			foreach (var label in labels) label.Draw();
-			
+			// Draw and update all windows
+			WindowManager.Update();
+
+			// Draw taskbar on top of everything else (except cursor) and update it
+			Taskbar.Draw();
+			Taskbar.Update();
+						
 			// Draw cursor
 			Mouse.Draw();
 			

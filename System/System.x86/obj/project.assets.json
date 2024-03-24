@@ -418,33 +418,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/creeper/.nuget/packages/": {}
+    "C:\\Users\\Creeper\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/System.x86.csproj",
+      "projectUniqueName": "C:\\Users\\Creeper\\Desktop\\test\\System\\System.x86\\System.x86.csproj",
       "projectName": "System.x86",
-      "projectPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/System.x86.csproj",
-      "packagesPath": "/Users/creeper/.nuget/packages/",
-      "outputPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System.x86/obj/",
+      "projectPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System.x86\\System.x86.csproj",
+      "packagesPath": "C:\\Users\\Creeper\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System.x86\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/creeper/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Creeper\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "/opt/cosmos/Packages/": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Creeper\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj": {
-              "projectPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj"
+            "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj": {
+              "projectPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj"
             }
           }
         }
@@ -480,7 +482,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

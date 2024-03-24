@@ -1,6 +1,7 @@
 ﻿// Copyright (c) MOSA Project. Licensed under the New BSD License.
 
 using System.Drawing;
+using System.Driver;
 using Mosa.DeviceSystem.Fonts;
 
 namespace System.Components;

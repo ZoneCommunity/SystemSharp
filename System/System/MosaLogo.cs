@@ -2,6 +2,7 @@
 
 using System.Collections.Generic;
 using System.Drawing;
+using System.Driver;
 using System.IO;
 using Mosa.DeviceSystem.Graphics;
 using Mosa.DeviceSystem.Mouse;
