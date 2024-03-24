@@ -37,7 +37,7 @@ public static class Display
 
 	public static void DrawMosaLogo(uint v)
 	{
-		MosaLogo.Draw();
+		MosaLogo.Draw(v);
 	}
 
 	public static void DrawPoint(uint x, uint y, Color color)

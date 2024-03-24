@@ -63,19 +63,24 @@ public static class Mouse
 		return Display.IsInBounds(X, x, Y, y, width, height);
 	}
 
+
 	public static void Draw()
 	{
 		if (!HardwareCursor)
 		{
-			for (var x = 0; x < 20; x++)
-				for (var y = 0; y < 20; y++)
-				{
-					var color = mouseCols[y][x];
 
-					if (color != 0)
-						Display.DrawPoint((uint)(X + x), (uint)(Y + y), Color);
-				}
+			var data = File.ReadAllBytes("cur.bmp");
+			var image = Bitmap.CreateImage(data);
+
+			using (var ms = new MemoryStream())
+			{
+				data = ms.ToArray();
+			}
+			
+
+			Mosa.DeviceSystem.Graphics.Bitmap.CreateImage(data);
 		}
 		else Display.Driver.SetCursor(true, X, Y);
+		
 	}
 }
