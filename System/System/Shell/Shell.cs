@@ -19,7 +19,7 @@ public class Shell : IApp
 			Console.Write("#system> ");
 
 			var cmd = Console.ReadLine();
-
+            
 			if (cmd == "quit")
 				break;
 
