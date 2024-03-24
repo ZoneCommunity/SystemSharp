@@ -4,7 +4,7 @@ namespace System.Shell;
 
 public class Shell : IApp
 {
-	public string Name => "Shell";
+	public string Name => "shell";
 
 	public string Description => "Runs the interactive shell.";
 

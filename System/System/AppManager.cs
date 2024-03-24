@@ -8,7 +8,9 @@ public static class AppManager
 	public static readonly IApp[] Applications =
 	{
 		new Shell.Shell(),
-        new Mem()
+        new Mem(),
+        new Hello(),
+        new Help()
 	};
 
 	public static bool Execute(string name)

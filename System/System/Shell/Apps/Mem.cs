@@ -7,7 +7,7 @@ namespace System.Shell.Apps;
 
 public class Mem : IApp
 {
-	public string Name => "Mem";
+	public string Name => "mem";
 
 	public string Description => "Shows memory information.";
 
