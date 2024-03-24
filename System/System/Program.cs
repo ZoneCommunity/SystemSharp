@@ -73,7 +73,7 @@ public static class Program
 			// Clear screen
 			Display.Clear(Color.FromArgb(22, 169, 253));
 
-			Display.DrawMosaLogo(40);
+			// Display.DrawMosaLogo(40);
 			// Initialize background labels
 			var labels = new List<Label>
 			{
