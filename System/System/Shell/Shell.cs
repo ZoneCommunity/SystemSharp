@@ -25,8 +25,10 @@ public class Shell : IApp
 
 			if (!AppManager.Execute(cmd))
 			{
-				Console.WriteLine("Unknown command: " + cmd);
+				Console.WriteLine("Bad command or file name '" + cmd + "'");
 			}
+
+            Console.WriteLine();
 		}
 	}
 }

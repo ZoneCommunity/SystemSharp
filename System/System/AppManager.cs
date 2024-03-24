@@ -1,4 +1,5 @@
 using System.Shell;
+using System.Shell.Apps;
 
 namespace System;
 
@@ -7,6 +8,7 @@ public static class AppManager
 	public static readonly IApp[] Applications =
 	{
 		new Shell.Shell(),
+        new Mem()
 	};
 
 	public static bool Execute(string name)
