@@ -23,7 +23,21 @@ public static class Program
 		Console.ResetColor();
 		Console.Clear();
 		Console.WriteLine("System has booted!");
-		Console.WriteLine("Type anything to have it echoed back to you!");
+		Console.WriteLine("This version is 0.0.1_32bit");
+
+		Console.WriteLine();
+		Console.WriteLine("System Shell");
+		Console.WriteLine("Enter \"quit\" to exit the shell.");
+
+		while (true)
+		{
+			Console.Write("> ");
+
+			var cmd = Console.ReadLine();
+
+			if (cmd == "quit")
+				break;
+		}
 
 		for (; ; )
 		{ }
