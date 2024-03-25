@@ -1,0 +1,148 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Mosa.Tool.Compiler/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.ARM32": "2.6.0.1400",
+          "Mosa.Compiler.Framework": "2.6.0.1400",
+          "Mosa.Compiler.MosaTypeSystem.CLR": "2.6.0.1400",
+          "Mosa.Compiler.x64": "2.6.0.1400",
+          "Mosa.Compiler.x86": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Tool.Compiler.dll": {}
+        }
+      },
+      "dnlib/4.3.0": {
+        "runtime": {
+          "lib/net6.0/dnlib.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
+      "Mosa.Compiler.ARM32/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Compiler.ARM32.dll": {}
+        }
+      },
+      "Mosa.Compiler.Common/2.6.0.1400": {
+        "runtime": {
+          "Mosa.Compiler.Common.dll": {}
+        }
+      },
+      "Mosa.Compiler.Framework/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.MosaTypeSystem": "2.6.0.1400",
+          "Mosa.Utility.Configuration": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Compiler.Framework.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.dll": {}
+        }
+      },
+      "Mosa.Compiler.MosaTypeSystem.CLR/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.MosaTypeSystem": "2.6.0.1400",
+          "dnlib": "4.3.0"
+        },
+        "runtime": {
+          "Mosa.Compiler.MosaTypeSystem.CLR.dll": {}
+        }
+      },
+      "Mosa.Compiler.x64/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Compiler.x64.dll": {}
+        }
+      },
+      "Mosa.Compiler.x86/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.Framework": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Compiler.x86.dll": {}
+        }
+      },
+      "Mosa.Utility.Configuration/2.6.0.1400": {
+        "dependencies": {
+          "Mosa.Compiler.Common": "2.6.0.1400"
+        },
+        "runtime": {
+          "Mosa.Utility.Configuration.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.Tool.Compiler/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "dnlib/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aGJ1KzGLV6dsU6gsR5dXfhjcIn0z0YJ29VqysPtHZ8237adtPfO0X2E6eyYehwrzeKMkZKQOdC1VQaHdQQ+yCw==",
+      "path": "dnlib/4.3.0",
+      "hashPath": "dnlib.4.3.0.nupkg.sha512"
+    },
+    "Mosa.Compiler.ARM32/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Common/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.Framework/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.MosaTypeSystem.CLR/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.x64/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Compiler.x86/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mosa.Utility.Configuration/2.6.0.1400": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

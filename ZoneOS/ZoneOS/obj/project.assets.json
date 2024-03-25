@@ -1,0 +1,2035 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Mosa.DeviceSystem/2.6.0.1400": {
+        "type": "package",
+        "dependencies": {
+          "Mosa.Platform": "2.6.0.1400"
+        },
+        "compile": {
+          "lib/net8.0/Mosa.DeviceDriver.dll": {},
+          "lib/net8.0/Mosa.DeviceSystem.dll": {},
+          "lib/net8.0/Mosa.FileSystem.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Mosa.DeviceDriver.dll": {},
+          "lib/net8.0/Mosa.DeviceSystem.dll": {},
+          "lib/net8.0/Mosa.FileSystem.dll": {}
+        }
+      },
+      "Mosa.Platform/2.6.0.1400": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Mosa.Kernel.BareMetal.dll": {},
+          "lib/net8.0/Mosa.Plug.Korlib.dll": {},
+          "lib/net8.0/Mosa.Runtime.dll": {},
+          "lib/net8.0/System.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/Mosa.Kernel.BareMetal.dll": {},
+          "lib/net8.0/Mosa.Plug.Korlib.dll": {},
+          "lib/net8.0/Mosa.Runtime.dll": {},
+          "lib/net8.0/System.Runtime.dll": {}
+        }
+      },
+      "Mosa.Tools.Package.Qemu/2.6.0.1400": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/net8.0/Tools/Avalonia.Base.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Base.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Controls.ColorPicker.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Controls.ColorPicker.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Controls.DataGrid.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Controls.DataGrid.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Controls.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Controls.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.DesignerSupport.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.DesignerSupport.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Desktop.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Desktop.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Diagnostics.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Diagnostics.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Dialogs.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Dialogs.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.FreeDesktop.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.FreeDesktop.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Markup.Xaml.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Markup.Xaml.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Markup.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Markup.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Metal.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Metal.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.MicroCom.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.MicroCom.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Native.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Native.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.OpenGL.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.OpenGL.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Remote.Protocol.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Remote.Protocol.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Skia.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Skia.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Themes.Fluent.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Themes.Fluent.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Themes.Simple.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Themes.Simple.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.Win32.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.Win32.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.X11.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.X11.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Avalonia.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Avalonia.dll"
+          },
+          "contentFiles/any/net8.0/Tools/HarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/HarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.ARM32.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.ARM32.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.Common.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.Common.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.Framework.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.Framework.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.MosaTypeSystem.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.MosaTypeSystem.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.x64.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.x64.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Compiler.x86.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Compiler.x86.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.deps.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.exe"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.pdb"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Compiler.runtimeconfig.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.deps.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.exe"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.pdb"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Debugger.runtimeconfig.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.deps.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.exe"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.pdb"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Explorer.runtimeconfig.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.deps.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.exe"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.pdb"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.deps.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.deps.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.exe"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.pdb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.pdb"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.runtimeconfig.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Tool.Launcher.runtimeconfig.json"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.BootImage.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.BootImage.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.Configuration.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Configuration.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.Disassembler.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Disassembler.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.FileSystem.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.FileSystem.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.Launcher.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.Launcher.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Mosa.Utility.RSP.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Mosa.Utility.RSP.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Reko.Arch.Arm.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Arch.Arm.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Reko.Arch.X86.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Arch.X86.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Reko.Core.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Reko.Core.dll"
+          },
+          "contentFiles/any/net8.0/Tools/SkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/SkiaSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/Tmds.DBus.Protocol.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/Tmds.DBus.Protocol.dll"
+          },
+          "contentFiles/any/net8.0/Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll"
+          },
+          "contentFiles/any/net8.0/Tools/WinFormsUI.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/WinFormsUI.dll"
+          },
+          "contentFiles/any/net8.0/Tools/dnlib.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/dnlib.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/COPYING.LIB": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/COPYING.LIB"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/README.rst": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/README.rst"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/SDL2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/SDL2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/SDL2_image.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/SDL2_image.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/brlapi-0.8.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/brlapi-0.8.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libLerc.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libLerc.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libatk-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libatk-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libbrotlicommon.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libbrotlicommon.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libbrotlidec.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libbrotlidec.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libbrotlienc.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libbrotlienc.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libbz2-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libbz2-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcacard-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcacard-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcairo-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcairo-2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcairo-gobject-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcairo-gobject-2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcapstone.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcapstone.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcrypto-3-x64.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcrypto-3-x64.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libcurl-4.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libcurl-4.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libdatrie-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libdatrie-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libdb-6.0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libdb-6.0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libdeflate.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libdeflate.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libepoxy-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libepoxy-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libexpat-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libexpat-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libfdt-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libfdt-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libffi-8.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libffi-8.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libfontconfig-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libfontconfig-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libfreetype-6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libfreetype-6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libfribidi-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libfribidi-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgcc_s_seh-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgcc_s_seh-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgdk-3-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgdk-3-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgdk_pixbuf-2.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgdk_pixbuf-2.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgio-2.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgio-2.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libglib-2.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libglib-2.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgmodule-2.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgmodule-2.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgmp-10.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgmp-10.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgnutls-30.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgnutls-30.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgobject-2.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgobject-2.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgraphite2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgraphite2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgstapp-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgstapp-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgstbase-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgstbase-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgstreamer-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgstreamer-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libgtk-3-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libgtk-3-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libharfbuzz-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libharfbuzz-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libhogweed-6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libhogweed-6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libhwy.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libhwy.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libiconv-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libiconv-2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libidn2-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libidn2-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libintl-8.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libintl-8.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libjack64.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libjack64.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libjbig-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libjbig-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libjpeg-8.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libjpeg-8.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libjxl.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libjxl.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/liblcms2-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/liblcms2-2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/liblz4.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/liblz4.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/liblzma-5.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/liblzma-5.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/liblzo2-2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/liblzo2-2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libncursesw6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libncursesw6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libnettle-8.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libnettle-8.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libnfs-14.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libnfs-14.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libnspr4.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libnspr4.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libopus-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libopus-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/liborc-0.4-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/liborc-0.4-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libp11-kit-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libp11-kit-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpango-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpango-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpangocairo-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpangocairo-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpangoft2-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpangoft2-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpangowin32-1.0-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpangowin32-1.0-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpcre2-8-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpcre2-8-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpixman-1-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpixman-1-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libplc4.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libplc4.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libplds4.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libplds4.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpng16-16.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpng16-16.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libpsl-5.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libpsl-5.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libsasl2-3.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libsasl2-3.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libsharpyuv-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libsharpyuv-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libslirp-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libslirp-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libsnappy.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libsnappy.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libspice-server-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libspice-server-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libssh.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libssh.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libssh2-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libssh2-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libssl-3-x64.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libssl-3-x64.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libssp-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libssp-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libstdc++-6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libstdc++-6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libsystre-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libsystre-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libtasn1-6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libtasn1-6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libthai-0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libthai-0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libtiff-6.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libtiff-6.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libtre-5.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libtre-5.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libunistring-5.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libunistring-5.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libusb-1.0.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libusb-1.0.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libusbredirparser-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libusbredirparser-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libvirglrenderer-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libvirglrenderer-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libwebp-7.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libwebp-7.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libwinpthread-1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libwinpthread-1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/libzstd.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/libzstd.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/nss3.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/nss3.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/nssutil3.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/nssutil3.dll"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-img.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-img.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-nbd.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-nbd.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-system-aarch64.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-system-aarch64.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-system-arm.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-system-arm.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-system-i386.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-system-i386.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/qemu-system-x86_64.exe": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/qemu-system-x86_64.exe"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/QEMU,cgthree.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/QEMU,cgthree.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/QEMU,tcx.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/QEMU,tcx.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/applications/qemu.desktop": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/applications/qemu.desktop"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/bamboo.dtb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/bamboo.dtb"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/bios-256k.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/bios-256k.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/bios-microvm.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/bios-microvm.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/bios.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/bios.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/canyonlands.dtb": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/canyonlands.dtb"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-aarch64-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-aarch64-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-arm-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-arm-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-arm-vars.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-arm-vars.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-i386-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-secure-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-i386-secure-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-vars.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-i386-vars.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-licenses.txt": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-licenses.txt"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-x86_64-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-x86_64-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/edk2-x86_64-secure-code.fd": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/edk2-x86_64-secure-code.fd"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-e1000.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-e1000.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-e1000e.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-e1000e.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-eepro100.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-eepro100.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-ne2k_pci.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-ne2k_pci.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-pcnet.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-pcnet.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-rtl8139.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-rtl8139.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-virtio.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-virtio.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/efi-vmxnet3.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/efi-vmxnet3.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/50-edk2-i386-secure.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/50-edk2-i386-secure.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/50-edk2-x86_64-secure.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/50-edk2-x86_64-secure.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-aarch64.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/60-edk2-aarch64.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-arm.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/60-edk2-arm.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-i386.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/60-edk2-i386.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-x86_64.json": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/firmware/60-edk2-x86_64.json"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/hppa-firmware.img": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/hppa-firmware.img"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/kvmvapic.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/kvmvapic.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/linuxboot.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/linuxboot.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/linuxboot_dma.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/linuxboot_dma.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/bg/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/bg/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/de_DE/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/de_DE/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/fr_FR/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/fr_FR/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/hu/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/hu/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/it/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/it/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/sv/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/sv/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/tr/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/tr/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/uk/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/uk/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/locale/zh_CN/LC_MESSAGES/qemu.mo": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/locale/zh_CN/LC_MESSAGES/qemu.mo"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/multiboot.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/multiboot.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/multiboot_dma.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/multiboot_dma.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/npcm7xx_bootrom.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/npcm7xx_bootrom.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/opensbi-riscv32-generic-fw_dynamic.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/opensbi-riscv32-generic-fw_dynamic.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/opensbi-riscv64-generic-fw_dynamic.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/opensbi-riscv64-generic-fw_dynamic.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pvh.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pvh.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-e1000.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-e1000.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-eepro100.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-eepro100.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-ne2k_pci.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-ne2k_pci.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-pcnet.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-pcnet.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-rtl8139.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-rtl8139.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/pxe-virtio.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/pxe-virtio.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/qboot.rom": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/qboot.rom"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/qemu-nsis.bmp": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/qemu-nsis.bmp"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/qemu_vga.ndrv": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/qemu_vga.ndrv"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/s390-netboot.img": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/s390-netboot.img"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/skiboot.lid": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/skiboot.lid"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/slof.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/slof.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/u-boot-sam460-20100605.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/u-boot-sam460-20100605.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/u-boot.e500": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/u-boot.e500"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-ati.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-ati.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-bochs-display.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-bochs-display.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-cirrus.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-cirrus.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-qxl.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-qxl.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-ramfb.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-ramfb.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-stdvga.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-stdvga.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-virtio.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-virtio.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios-vmware.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios-vmware.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vgabios.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vgabios.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vof-nvram.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vof-nvram.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/share/vof.bin": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/share/vof.bin"
+          },
+          "contentFiles/any/net8.0/Tools/qemu/zlib1.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/qemu/zlib1.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-arm/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-arm64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-arm64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/linux-x64/native/libSkiaSharp.so": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/linux-x64/native/libSkiaSharp.so"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/osx/native/libAvaloniaNative.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libAvaloniaNative.dylib"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/osx/native/libHarfBuzzSharp.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libHarfBuzzSharp.dylib"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/osx/native/libSkiaSharp.dylib": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/osx/native/libSkiaSharp.dylib"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/av_libglesv2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-arm64/native/libSkiaSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x64/native/av_libglesv2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x64/native/libSkiaSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/av_libglesv2.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x86/native/av_libglesv2.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll"
+          },
+          "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "Tools/runtimes/win-x86/native/libSkiaSharp.dll"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mosa.DeviceSystem/2.6.0.1400": {
+      "sha512": "BQrll2yTYwb3uon88JIdle/C7ddbdPHXuCPKSINtAbs+9I9nRBIwRBBR26WsZhI/MzcGz67y3X/jf0LkVLnTZA==",
+      "type": "package",
+      "path": "mosa.devicesystem/2.6.0.1400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net8.0/Mosa.DeviceDriver.dll",
+        "lib/net8.0/Mosa.DeviceSystem.dll",
+        "lib/net8.0/Mosa.FileSystem.dll",
+        "mosa.devicesystem.2.6.0.1400.nupkg.sha512",
+        "mosa.devicesystem.nuspec"
+      ]
+    },
+    "Mosa.Platform/2.6.0.1400": {
+      "sha512": "6XFY83wx1NHop9tb/f2Mz2NQrz0JuwsM18W4zNHRl/xyaQTjFQoKlCiLDvUr1is9kvfGvA0KrqV0Zf+jJktxKw==",
+      "type": "package",
+      "path": "mosa.platform/2.6.0.1400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Mosa Icon.png",
+        "lib/net8.0/Mosa.Kernel.BareMetal.dll",
+        "lib/net8.0/Mosa.Plug.Korlib.dll",
+        "lib/net8.0/Mosa.Runtime.dll",
+        "lib/net8.0/System.Runtime.dll",
+        "mosa.platform.2.6.0.1400.nupkg.sha512",
+        "mosa.platform.nuspec"
+      ]
+    },
+    "Mosa.Tools.Package.Qemu/2.6.0.1400": {
+      "sha512": "wFbXmpxXerq2Mx1/+nB1fLhXjYwgDCS6dUVZSZeFEdk93BCS3NwXV3xGnzGimCxOpjKy5bZhPSVEB+xltV0GTA==",
+      "type": "package",
+      "path": "mosa.tools.package.qemu/2.6.0.1400",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "contentFiles/any/net8.0/Tools/Avalonia.Base.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Controls.ColorPicker.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Controls.DataGrid.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Controls.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.DesignerSupport.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Desktop.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Diagnostics.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Dialogs.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.FreeDesktop.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Markup.Xaml.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Markup.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Metal.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.MicroCom.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Native.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.OpenGL.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Remote.Protocol.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Skia.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Themes.Fluent.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Themes.Simple.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.Win32.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.X11.dll",
+        "contentFiles/any/net8.0/Tools/Avalonia.dll",
+        "contentFiles/any/net8.0/Tools/HarfBuzzSharp.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.ARM32.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.Common.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.Framework.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.MosaTypeSystem.CLR.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.MosaTypeSystem.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.x64.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Compiler.x86.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.deps.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.exe",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.pdb",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Compiler.runtimeconfig.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.deps.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.exe",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.pdb",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Debugger.runtimeconfig.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.deps.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.exe",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.pdb",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Explorer.runtimeconfig.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.deps.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.exe",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.pdb",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.Console.runtimeconfig.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.deps.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.exe",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.pdb",
+        "contentFiles/any/net8.0/Tools/Mosa.Tool.Launcher.runtimeconfig.json",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.BootImage.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.Configuration.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.Disassembler.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.FileSystem.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.Launcher.dll",
+        "contentFiles/any/net8.0/Tools/Mosa.Utility.RSP.dll",
+        "contentFiles/any/net8.0/Tools/Reko.Arch.Arm.dll",
+        "contentFiles/any/net8.0/Tools/Reko.Arch.X86.dll",
+        "contentFiles/any/net8.0/Tools/Reko.Core.dll",
+        "contentFiles/any/net8.0/Tools/SkiaSharp.dll",
+        "contentFiles/any/net8.0/Tools/Tmds.DBus.Protocol.dll",
+        "contentFiles/any/net8.0/Tools/WeifenLuo.WinFormsUI.Docking.ThemeVS2015.dll",
+        "contentFiles/any/net8.0/Tools/WinFormsUI.dll",
+        "contentFiles/any/net8.0/Tools/dnlib.dll",
+        "contentFiles/any/net8.0/Tools/qemu/COPYING.LIB",
+        "contentFiles/any/net8.0/Tools/qemu/README.rst",
+        "contentFiles/any/net8.0/Tools/qemu/SDL2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/SDL2_image.dll",
+        "contentFiles/any/net8.0/Tools/qemu/brlapi-0.8.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libLerc.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libatk-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libbrotlicommon.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libbrotlidec.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libbrotlienc.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libbz2-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcacard-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcairo-2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcairo-gobject-2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcapstone.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcrypto-3-x64.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libcurl-4.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libdatrie-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libdb-6.0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libdeflate.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libepoxy-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libexpat-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libfdt-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libffi-8.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libfontconfig-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libfreetype-6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libfribidi-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgcc_s_seh-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgdk-3-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgdk_pixbuf-2.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgio-2.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libglib-2.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgmodule-2.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgmp-10.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgnutls-30.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgobject-2.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgraphite2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgstapp-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgstbase-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgstreamer-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libgtk-3-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libharfbuzz-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libhogweed-6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libhwy.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libiconv-2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libidn2-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libintl-8.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libjack64.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libjbig-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libjpeg-8.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libjxl.dll",
+        "contentFiles/any/net8.0/Tools/qemu/liblcms2-2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/liblz4.dll",
+        "contentFiles/any/net8.0/Tools/qemu/liblzma-5.dll",
+        "contentFiles/any/net8.0/Tools/qemu/liblzo2-2.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libncursesw6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libnettle-8.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libnfs-14.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libnspr4.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libopus-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/liborc-0.4-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libp11-kit-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpango-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpangocairo-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpangoft2-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpangowin32-1.0-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpcre2-8-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpixman-1-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libplc4.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libplds4.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpng16-16.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libpsl-5.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libsasl2-3.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libsharpyuv-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libslirp-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libsnappy.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libspice-server-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libssh.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libssh2-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libssl-3-x64.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libssp-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libstdc++-6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libsystre-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libtasn1-6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libthai-0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libtiff-6.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libtre-5.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libunistring-5.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libusb-1.0.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libusbredirparser-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libvirglrenderer-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libwebp-7.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libwinpthread-1.dll",
+        "contentFiles/any/net8.0/Tools/qemu/libzstd.dll",
+        "contentFiles/any/net8.0/Tools/qemu/nss3.dll",
+        "contentFiles/any/net8.0/Tools/qemu/nssutil3.dll",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-img.exe",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-nbd.exe",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-system-aarch64.exe",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-system-arm.exe",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-system-i386.exe",
+        "contentFiles/any/net8.0/Tools/qemu/qemu-system-x86_64.exe",
+        "contentFiles/any/net8.0/Tools/qemu/share/QEMU,cgthree.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/QEMU,tcx.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/applications/qemu.desktop",
+        "contentFiles/any/net8.0/Tools/qemu/share/bamboo.dtb",
+        "contentFiles/any/net8.0/Tools/qemu/share/bios-256k.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/bios-microvm.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/bios.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/canyonlands.dtb",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-aarch64-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-arm-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-arm-vars.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-secure-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-i386-vars.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-licenses.txt",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-x86_64-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/edk2-x86_64-secure-code.fd",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-e1000.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-e1000e.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-eepro100.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-ne2k_pci.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-pcnet.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-rtl8139.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-virtio.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/efi-vmxnet3.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/50-edk2-i386-secure.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/50-edk2-x86_64-secure.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-aarch64.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-arm.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-i386.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/firmware/60-edk2-x86_64.json",
+        "contentFiles/any/net8.0/Tools/qemu/share/hppa-firmware.img",
+        "contentFiles/any/net8.0/Tools/qemu/share/kvmvapic.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/linuxboot.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/linuxboot_dma.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/bg/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/de_DE/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/fr_FR/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/hu/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/it/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/sv/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/tr/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/uk/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/locale/zh_CN/LC_MESSAGES/qemu.mo",
+        "contentFiles/any/net8.0/Tools/qemu/share/multiboot.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/multiboot_dma.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/npcm7xx_bootrom.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/opensbi-riscv32-generic-fw_dynamic.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/opensbi-riscv64-generic-fw_dynamic.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/pvh.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-e1000.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-eepro100.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-ne2k_pci.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-pcnet.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-rtl8139.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/pxe-virtio.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/qboot.rom",
+        "contentFiles/any/net8.0/Tools/qemu/share/qemu-nsis.bmp",
+        "contentFiles/any/net8.0/Tools/qemu/share/qemu_vga.ndrv",
+        "contentFiles/any/net8.0/Tools/qemu/share/s390-netboot.img",
+        "contentFiles/any/net8.0/Tools/qemu/share/skiboot.lid",
+        "contentFiles/any/net8.0/Tools/qemu/share/slof.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/u-boot-sam460-20100605.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/u-boot.e500",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-ati.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-bochs-display.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-cirrus.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-qxl.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-ramfb.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-stdvga.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-virtio.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios-vmware.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vgabios.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vof-nvram.bin",
+        "contentFiles/any/net8.0/Tools/qemu/share/vof.bin",
+        "contentFiles/any/net8.0/Tools/qemu/zlib1.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-arm/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-arm/native/libSkiaSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-arm64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-arm64/native/libSkiaSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-musl-x64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-musl-x64/native/libSkiaSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-x64/native/libHarfBuzzSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/linux-x64/native/libSkiaSharp.so",
+        "contentFiles/any/net8.0/Tools/runtimes/osx/native/libAvaloniaNative.dylib",
+        "contentFiles/any/net8.0/Tools/runtimes/osx/native/libHarfBuzzSharp.dylib",
+        "contentFiles/any/net8.0/Tools/runtimes/osx/native/libSkiaSharp.dylib",
+        "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/av_libglesv2.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-arm64/native/libSkiaSharp.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/av_libglesv2.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x64/native/libSkiaSharp.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/av_libglesv2.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libHarfBuzzSharp.dll",
+        "contentFiles/any/net8.0/Tools/runtimes/win-x86/native/libSkiaSharp.dll",
+        "images/Mosa Icon.png",
+        "mosa.tools.package.qemu.2.6.0.1400.nupkg.sha512",
+        "mosa.tools.package.qemu.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Mosa.DeviceSystem >= *",
+      "Mosa.Platform >= *",
+      "Mosa.Tools.Package.Qemu >= *"
+    ]
+  },
+  "packageFolders": {
+    "/Users/creeper/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/creeper/Documents/GitHub/SystemSharp/ZoneOS/ZoneOS/ZoneOS.csproj",
+      "projectName": "ZoneOS",
+      "projectPath": "/Users/creeper/Documents/GitHub/SystemSharp/ZoneOS/ZoneOS/ZoneOS.csproj",
+      "packagesPath": "/Users/creeper/.nuget/packages/",
+      "outputPath": "/Users/creeper/Documents/GitHub/SystemSharp/ZoneOS/ZoneOS/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/creeper/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "/opt/cosmos/Packages/": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Mosa.DeviceSystem": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Platform": {
+            "target": "Package",
+            "version": "[*, )"
+          },
+          "Mosa.Tools.Package.Qemu": {
+            "target": "Package",
+            "version": "[*, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

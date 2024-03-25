@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NbDbeVLZP/dBGqUkBKLUzzT5vL3o5IKydyf00Q1HzIQeMqhqI1uOjMDIxFl67n+y+3sjrnHBO/TUt07H9669qw==",
+  "success": true,
+  "projectFilePath": "/Users/creeper/Documents/GitHub/SystemSharp/ZoneOS/ZoneOS/ZoneOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/creeper/.nuget/packages/mosa.devicesystem/2.6.0.1400/mosa.devicesystem.2.6.0.1400.nupkg.sha512",
+    "/Users/creeper/.nuget/packages/mosa.platform/2.6.0.1400/mosa.platform.2.6.0.1400.nupkg.sha512",
+    "/Users/creeper/.nuget/packages/mosa.tools.package.qemu/2.6.0.1400/mosa.tools.package.qemu.2.6.0.1400.nupkg.sha512"
+  ],
+  "logs": []
+}

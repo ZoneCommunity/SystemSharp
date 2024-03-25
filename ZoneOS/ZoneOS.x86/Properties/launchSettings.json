@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"ZoneOS.x86": {
+			"commandName": "Executable",
+			"executablePath": "dotnet",
+			"commandLineArgs": "Tools/Mosa.Tool.Launcher.dll ZoneOS.x86.dll",
+			"workingDirectory": "bin"
+		}
+	}
+}
