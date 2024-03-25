@@ -71,6 +71,7 @@ public static class Program
 
 		Mouse.Initialize();	
 		WindowManager.Initialize();
+		
 
 		Taskbar = new Taskbar();
 		Taskbar.Buttons.Add(new TaskbarButton(Taskbar, "Shutdown", Color.Blue, Color.White, Color.Navy,
@@ -112,7 +113,7 @@ public static class Program
 			// Draw taskbar on top of everything else (except cursor) and update it
 			Taskbar.Draw();
 			Taskbar.Update();
-						
+
 			// Draw cursor
 			Mouse.Draw();
 			
