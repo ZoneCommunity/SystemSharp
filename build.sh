@@ -12,5 +12,5 @@ cd ../../..
 # perl ISO/isohybrid.pl ISO/System.iso
 # qemu-system-x86_64 -cdrom ISO/System.iso
 
-qemu-system-x86_64 -accel hvf -m 128M -smp cores=1 -cpu qemu32,+sse4.1,abm,bmi1,bmi2,popcnt -vga vmware -display sdl -drive format=raw,file="/var/folders/6g/cn2k0n6n6mxf063hwd89rbch0000gn/T/MOSA/System.x86.img"
+qemu-system-x86_64 -m 128M -smp cores=1 -cpu qemu32,+sse4.1,abm,bmi1,bmi2,popcnt -vga vmware -display sdl -drive format=raw,file="/var/folders/6g/cn2k0n6n6mxf063hwd89rbch0000gn/T/MOSA/System.x86.img"
 # kvm for linux 

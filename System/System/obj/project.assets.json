@@ -1962,27 +1962,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Creeper\\.nuget\\packages\\": {}
+    "/Users/creeper/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
+      "projectUniqueName": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj",
       "projectName": "System",
-      "projectPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\System.csproj",
-      "packagesPath": "C:\\Users\\Creeper\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Creeper\\Desktop\\test\\System\\System\\obj\\",
+      "projectPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/System.csproj",
+      "packagesPath": "/Users/creeper/.nuget/packages/",
+      "outputPath": "/Users/creeper/Documents/GitHub/SystemSharp/System/System/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Creeper\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/creeper/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Users\\Creeper\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "/opt/cosmos/Packages/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2030,7 +2028,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
