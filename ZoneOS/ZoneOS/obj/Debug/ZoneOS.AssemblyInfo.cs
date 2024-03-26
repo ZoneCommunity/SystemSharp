@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ZoneOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96f2866e71e71b3accdaf1411829dd18a164cb03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22fe0bd44ec7c5dc01f20df31d522031460cdcde")]
 [assembly: System.Reflection.AssemblyProductAttribute("ZoneOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ZoneOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
